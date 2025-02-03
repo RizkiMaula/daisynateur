@@ -8,5 +8,6 @@ export default {
       colors: {},
     },
   },
+  daisyui: { themes: ['wireframe'] },
   plugins: [daisyui],
 };
