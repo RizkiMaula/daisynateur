@@ -10,31 +10,25 @@ export default function Footer() {
       </aside>
       <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end text-2xl">
         <Link
-          legacyBehavior
+          passHref
           target="_blank"
           href={'https://instagram.com'}
         >
-          <a className="font-bold text-2xl">
-            <FontAwesomeIcon icon={faInstagram} />
-          </a>
+          <FontAwesomeIcon icon={faInstagram} />
         </Link>
         <Link
-          legacyBehavior
+          passHref
           target="_blank"
           href={'https://x.com'}
         >
-          <a className="font-bold text-2xl">
-            <FontAwesomeIcon icon={faXTwitter} />
-          </a>
+          <FontAwesomeIcon icon={faXTwitter} />
         </Link>
         <Link
-          legacyBehavior
+          passHref
           target="_blank"
           href={'https://instagram.com'}
         >
-          <a className="font-bold text-2xl">
-            <FontAwesomeIcon icon={faTiktok} />
-          </a>
+          <FontAwesomeIcon icon={faTiktok} />
         </Link>
       </nav>
     </footer>

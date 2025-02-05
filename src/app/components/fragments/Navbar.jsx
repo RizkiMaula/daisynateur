@@ -5,7 +5,7 @@ import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
-export default function Navbar({ content }) {
+export default function Navbar({ children }) {
   return (
     <div className="drawer">
       <input
@@ -57,7 +57,7 @@ export default function Navbar({ content }) {
           </div>
         </div>
         {/* Page content here */}
-        {content}
+        {children}
       </div>
       <div className="drawer-side">
         <label

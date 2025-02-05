@@ -13,8 +13,8 @@ export default function RootLayout({ children }) {
       <head>
         <title>Fandom</title>
       </head>
-      <body className="bg-slate-100 min-h-screen text-black ">
-        <Navbar content={children} />
+      <body className="bg-slate-100 min-h-screen text-black flex flex-col">
+        <Navbar>{children}</Navbar>
         <Footer />
       </body>
     </html>
