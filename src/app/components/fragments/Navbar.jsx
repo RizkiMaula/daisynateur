@@ -40,6 +40,29 @@ export default function Navbar({ children }) {
             <ul className="menu menu-horizontal  ">
               {/* Navbar menu content here */}
               <li className="">
+                <details>
+                  <summary>About</summary>
+                  <ul className="bg-base-100  rounded-t-none p-2">
+                    <li>
+                      <Link
+                        legacyBehavior
+                        href={'/about-idol'}
+                      >
+                        Idol
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        legacyBehavior
+                        href={'/about-fandom'}
+                      >
+                        Fandom
+                      </Link>
+                    </li>
+                  </ul>
+                </details>
+              </li>
+              <li className="">
                 <Link href={'/google.com'}>Sidebar Item 1</Link>
               </li>
               <li className="">

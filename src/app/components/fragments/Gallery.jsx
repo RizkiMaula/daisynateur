@@ -42,7 +42,7 @@ export const Gallery = () => {
       transition={{ duration: 1.2 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      className="hero min-h-screen bg-base-200 flex flex-col gap-4 px-0 md:px-10"
+      className="hero min-h-screen bg-base-200 flex flex-col gap-4 px-0 md:px-10 py-10"
     >
       <h1>Gallery</h1>
       <div className="carousel w-full rounded-box">
