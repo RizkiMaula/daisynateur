@@ -1,13 +1,12 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 
 export const Banner = () => {
   return (
     <motion.div
-      animate={{ y: [100, 10, 0] }}
       transition={{ duration: 1.2 }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, scale: 1 }}
-      className="hero min-h-screen bg-base-200 "
+      className="hero min-h-screen bg-base-200"
     >
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img

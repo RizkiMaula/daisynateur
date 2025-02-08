@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 export const About = () => {
@@ -21,7 +21,7 @@ export const About = () => {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quis nemo fugit cumque, inventore a commodi accusamus do...{' '}
             <Link
-              href={'/'}
+              href={'/about-idol'}
               className="hover:text-secondary"
             >
               View More

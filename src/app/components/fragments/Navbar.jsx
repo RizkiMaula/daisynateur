@@ -1,7 +1,6 @@
 'use client';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSpotify } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 
@@ -90,10 +89,33 @@ export default function Navbar({ children }) {
         ></label>
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
-          <li>
+          <li className="mb-10">
             <h1 className="text-2xl">Navbar Title</h1>
           </li>
-          <li className="mt-10">
+          <li className="">
+            <details>
+              <summary>About</summary>
+              <ul className="bg-base-100  rounded-t-none p-2">
+                <li>
+                  <Link
+                    legacyBehavior
+                    href={'/about-idol'}
+                  >
+                    Idol
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    legacyBehavior
+                    href={'/about-fandom'}
+                  >
+                    Fandom
+                  </Link>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li className="">
             <Link href={'/google.com'}>Sidebar Item 1</Link>
           </li>
           <li className="">
