@@ -7,6 +7,21 @@ const carouselPics = [
   'https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp',
   'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
   'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
+  'https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp',
 ];
 
+const pics = [];
+
 export default carouselPics;
+export { pics };

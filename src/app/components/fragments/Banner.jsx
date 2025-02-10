@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export const Banner = () => {
   return (
@@ -18,7 +19,13 @@ export const Banner = () => {
           <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
           <div className="flex gap-4">
             <button className="btn btn-primary">Get Started</button>
-            <button className="btn btn-secondary">Bergabung dengan kami</button>
+            <Link
+              target="_blank"
+              href={'https://forms.gle/DFMWHMyfTexC5EtN7'}
+              className="btn btn-secondary"
+            >
+              Bergabung dengan kami
+            </Link>
           </div>
         </div>
       </div>
