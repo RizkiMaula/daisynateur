@@ -26,13 +26,35 @@ export const Gallery = () => {
     };
   }, []);
 
+  // console.log(carouselPics.length);
+
+  // const handlePrev = () => {
+  //   const newIndex = (activeIndex - 1 + carouselPics.length) % carouselPics.length;
+  //   window.location.hash = `item${newIndex + 1}`;
+  // };
+
+  // const handleNext = () => {
+  //   const newIndex = (activeIndex + 1) % carouselPics.length;
+  //   window.location.hash = `item${newIndex + 1}`;
+
+  //   if (newIndex === 8) {
+  //     window.location.hash = `item1`;
+  //   }
+
+  //   if (newIndex === 1) {
+  //     window.location.hash = 'item3';
+  //   }
+  // };
+
+  const displayedCount = 8; // Number of displayed carousel items
+
   const handlePrev = () => {
-    const newIndex = (activeIndex - 1 + carouselPics.length) % carouselPics.length;
+    const newIndex = (activeIndex - 2 + displayedCount) % displayedCount;
     window.location.hash = `item${newIndex + 1}`;
   };
 
   const handleNext = () => {
-    const newIndex = (activeIndex + 1) % carouselPics.length;
+    const newIndex = (activeIndex + 2) % displayedCount;
     window.location.hash = `item${newIndex + 1}`;
   };
 
@@ -47,7 +69,7 @@ export const Gallery = () => {
       <h1>Gallery</h1>
       <div className="carousel w-full rounded-box">
         {carouselPics
-          .filter((_, index) => index <= 7)
+          .filter((_, index) => index < 7)
           .map((pic, index) => (
             <div
               key={index}

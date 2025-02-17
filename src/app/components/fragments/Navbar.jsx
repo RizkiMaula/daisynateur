@@ -111,13 +111,28 @@ export default function Navbar({ children }) {
             </details>
           </li>
           <li className="">
-            <Link href={'/google.com'}>Sidebar Item 1</Link>
+            <Link
+              legacyBehavior
+              href={'/jadwal-pertunjukan'}
+            >
+              Jadwal Pertunjukan
+            </Link>
           </li>
           <li className="">
-            <Link href={'/google.com'}>Sidebar Item 2</Link>
+            <Link
+              legacyBehavior
+              href={'/gallery'}
+            >
+              Gallery
+            </Link>
           </li>
           <li className="">
-            <Link href={'/google.com'}>Sidebar Item 3</Link>
+            <Link
+              legacyBehavior
+              href={'/game'}
+            >
+              Mini Game
+            </Link>
           </li>
         </ul>
       </div>

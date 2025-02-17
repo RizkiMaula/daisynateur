@@ -1,7 +1,8 @@
 import * as motion from 'motion/react-client';
+import Image from 'next/image';
 import Link from 'next/link';
 
-export const AboutFragment = ({ title, paragraph3, paragraph4, paragraph5, paragraph1, paragraph2, pic, sns, igLink, xLink, tiktokLink, vid }) => {
+export const AboutFragment = ({ title, paragraph3, paragraph4, paragraph5, paragraph1, paragraph2, pic, sns, igLink, xLink, tiktokLink, vid, height = 'h-58', width = 'w-48', cover }) => {
   return (
     <motion.div
       initial={{ x: 100, opacity: 0 }}
@@ -16,11 +17,12 @@ export const AboutFragment = ({ title, paragraph3, paragraph4, paragraph5, parag
       <h1 className="text-2xl">{title}</h1>
       <div className="text-justify p-4 gap-2">
         <div className="flex justify-center md:block">
-          <img
+          <Image
             src={pic}
             alt="coba"
-            className="md:float-left mr-4 mb-4 w-48 h-48 object-cover rounded-lg shadow-lg"
+            className={`md:float-left mr-4 mb-4 ${cover} rounded-lg shadow-lg ${width} ${height}`}
           />
+          {/** nanti cover diisi object-cover */}
         </div>
         <p>{paragraph1}</p>
         <p>{paragraph2}</p>

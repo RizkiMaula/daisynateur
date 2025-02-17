@@ -1,25 +1,23 @@
 'use client';
-import carouselPics from '../assets/CaroucelPics';
 import { AboutFragment } from '../components/fragments/AboutFragment';
+import foto1 from '../assets/pics/foto1.jpg';
 
 export const Idol = () => {
   return (
     <AboutFragment
       title="Tentang Idol"
-      pic={carouselPics[1]}
-      paragraph1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corporis debitis distinctio commodi officia quisquam, molestias eligendi nostrum laudantium dolor provident, autem eaque tenetur adipisci incidunt unde ut
-      repellendus dolore voluptas doloribus ad natus! Voluptates veritatis voluptas blanditiis odio beatae facilis dolorem odit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam unde itaque repellendus illum
-      commodi quia blanditiis iusto quam id magni, sapiente nobis hic cupiditate quo consequuntur ducimus consequatur. Maxime, facere asperiores."
-      paragraph2="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!"
-      paragraph3={
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
-      }
-      paragraph4={
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
-      }
-      paragraph5={
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
-      }
+      pic={foto1}
+      paragraph1="Seperti bunga Daisy, aku akan memancarkan kesegaran dan kebahagiaan. Daisy JKT48, atau Desy Natalia, adalah anggota generasi ke-11 JKT48 yang diperkenalkan pada 31 Oktober 2022. Lahir pada 16 Desember 2005, ia memiliki saudara kembar bernama Danella, menjadikan mereka pasangan kembar pertama dalam sejarah JKT48. Daisy dikenal dengan wajah imut dan senyum cerianya. Debut teaternya dimulai pada Agustus 2023 dalam setlist Cara Meminum Ramune. Bersama Danella, mereka sering tampil kompak, mencuri perhatian penggemar dengan chemistry unik dan penampilan energik di atas panggung."
+      // paragraph2="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!"
+      // paragraph3={
+      //   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
+      // }
+      // paragraph4={
+      //   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
+      // }
+      // paragraph5={
+      //   'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid est, eveniet sint eaque eligendi ut nobis voluptate repellat at illum repellendus exercitationem saepe perspiciatis dolor beatae alias aut culpa cumque ipsa unde!'
+      // }
       igLink={'jkt48.daisy'}
       xLink={'Daisy_JKT48'}
       tiktokLink={'daisyjkt48'}

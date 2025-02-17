@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import carouselPics from '@/app/assets/CaroucelPics';
+import Photo from '../elements/Photo';
 
 export const Banner = () => {
   return (
@@ -10,9 +12,10 @@ export const Banner = () => {
       className="hero min-h-screen bg-base-200"
     >
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src="https://placeimg.com/260/400/arch"
-          className="max-w-sm rounded-lg shadow-2xl"
+        <Photo
+          item={carouselPics[0]}
+          width="w-96"
+          height="h-96"
         />
         <div>
           <h1 className="text-5xl font-bold">Box Office News!</h1>
