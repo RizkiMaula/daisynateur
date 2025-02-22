@@ -14,19 +14,19 @@ export const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Photo
           item={carouselPics[1]}
-          width="w-96"
-          height="h-96"
+          width="w-80 md:w-96"
+          height="h-88 md:h-96"
         />
 
         <div>
-          <h1 className="text-5xl font-bold">SELAMAT DATANG DI WEBSITE KAMI</h1>
+          <h1 className="md:text-6xl text-4xl font-bold">SELAMAT DATANG DI WEBSITE KAMI</h1>
           <p className="py-6">Di sini kamu dapat menemukan informasi seputar Daisy JKT48 dan Daisynateur</p>
           <div className="flex gap-4">
             <Link
               href="/about-idol"
               className="btn btn-primary"
             >
-              Mari Berkenalan Dengan Daisy
+              Tentang Daisy
             </Link>
             <Link
               target="_blank"

@@ -26,7 +26,4 @@ import foto25 from '../assets/pics/foto25.jpg';
 
 const carouselPics = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12, foto13, foto14, foto15, foto16, foto17, foto18, foto19, foto20, foto21, foto22, foto23, foto24, foto25];
 
-const pics = [];
-
 export default carouselPics;
-export { pics };

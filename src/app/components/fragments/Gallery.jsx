@@ -59,6 +59,7 @@ export const Gallery = () => {
             >
               <Image
                 src={pic}
+                alt="gambar"
                 className="w-full"
               />
             </div>

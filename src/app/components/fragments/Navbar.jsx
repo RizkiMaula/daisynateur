@@ -32,7 +32,7 @@ export default function Navbar({ children }) {
               legacyBehavior
               href={'/'}
             >
-              <a>Navbar Title</a>
+              <a>Daisynateur</a>
             </Link>
           </div>
           <div className="hidden flex-none lg:block">
