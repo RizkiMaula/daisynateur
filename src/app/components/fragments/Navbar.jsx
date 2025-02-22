@@ -85,7 +85,7 @@ export default function Navbar({ children }) {
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
           <li className="mb-10">
-            <h1 className="text-2xl">Navbar Title</h1>
+            <h1 className="text-2xl">Daisynateur</h1>
           </li>
           <li className="">
             <details>
