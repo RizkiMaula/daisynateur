@@ -12,7 +12,7 @@ export const Banner = () => {
       whileInView={{ opacity: 1, scale: 1 }}
       className="hero min-h-screen bg-base-200"
     >
-      <div className="hero-content flex-col lg:flex-row-reverse border-2 border-black">
+      <div className="hero-content flex-col lg:flex-row-reverse">
         <Photo
           item={carouselPics[1]}
           width="w-80 md:w-64"
