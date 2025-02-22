@@ -30,7 +30,7 @@ export const Banner = () => {
             </Link>
             <Link
               target="_blank"
-              href={'https://forms.gle/DFMWHMyfTexC5EtN7'}
+              href={'https://linktr.ee/daisynateur'}
               className="btn btn-secondary"
             >
               Bergabung Dengan Kami
