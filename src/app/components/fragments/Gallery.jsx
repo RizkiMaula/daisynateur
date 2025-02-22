@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export const Gallery = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -25,26 +26,6 @@ export const Gallery = () => {
       window.removeEventListener('hashchange', handleHashChange);
     };
   }, []);
-
-  // console.log(carouselPics.length);
-
-  // const handlePrev = () => {
-  //   const newIndex = (activeIndex - 1 + carouselPics.length) % carouselPics.length;
-  //   window.location.hash = `item${newIndex + 1}`;
-  // };
-
-  // const handleNext = () => {
-  //   const newIndex = (activeIndex + 1) % carouselPics.length;
-  //   window.location.hash = `item${newIndex + 1}`;
-
-  //   if (newIndex === 8) {
-  //     window.location.hash = `item1`;
-  //   }
-
-  //   if (newIndex === 1) {
-  //     window.location.hash = 'item3';
-  //   }
-  // };
 
   const displayedCount = 8; // Number of displayed carousel items
 
@@ -76,7 +57,7 @@ export const Gallery = () => {
               id={`item${index + 1}`}
               className="carousel-item w-1/2"
             >
-              <img
+              <Image
                 src={pic}
                 className="w-full"
               />

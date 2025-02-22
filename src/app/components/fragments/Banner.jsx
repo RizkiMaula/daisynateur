@@ -13,21 +13,27 @@ export const Banner = () => {
     >
       <div className="hero-content flex-col lg:flex-row-reverse">
         <Photo
-          item={carouselPics[0]}
+          item={carouselPics[1]}
           width="w-96"
           height="h-96"
         />
+
         <div>
-          <h1 className="text-5xl font-bold">Box Office News!</h1>
-          <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+          <h1 className="text-5xl font-bold">SELAMAT DATANG DI WEBSITE KAMI</h1>
+          <p className="py-6">Di sini kamu dapat menemukan informasi seputar Daisy JKT48 dan Daisynateur</p>
           <div className="flex gap-4">
-            <button className="btn btn-primary">Get Started</button>
+            <Link
+              href="/about-idol"
+              className="btn btn-primary"
+            >
+              Mari Berkenalan Dengan Daisy
+            </Link>
             <Link
               target="_blank"
               href={'https://forms.gle/DFMWHMyfTexC5EtN7'}
               className="btn btn-secondary"
             >
-              Bergabung dengan kami
+              Bergabung Dengan Kami
             </Link>
           </div>
         </div>
