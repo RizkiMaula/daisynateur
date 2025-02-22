@@ -1,11 +1,11 @@
 import { AboutFragment } from '../components/fragments/AboutFragment';
-import foto from '../assets/pics/coba.jpg';
+import logo from '../assets/pics/logo.jpg';
 
 export default () => {
   return (
     <AboutFragment
       title="About The Fandom"
-      pic={foto}
+      pic={logo}
       paragraph1={`
           Daisynateur merupakan fanbase untuk mendukung Desy Natalia atau Daisy JKT48. Berdiri untuk mendukung dan memberikan semangat untuk Daisy agar terus berkarya dan dapat memberikan yang terbaik untuk fans JKT48. Kami juga akan mentrasfer keceriaan dan semangat dari Daisy untuk kalian.
         `}
