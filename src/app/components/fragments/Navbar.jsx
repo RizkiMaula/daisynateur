@@ -12,9 +12,9 @@ export default function Navbar({ children }) {
         type="checkbox"
         className="drawer-toggle"
       />
-      <div className="drawer-content flex flex-col">
+      <div className="flex flex-col drawer-content">
         {/* Navbar */}
-        <div className="navbar bg-base-300 w-full">
+        <div className="w-full navbar bg-base-300">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -27,7 +27,7 @@ export default function Navbar({ children }) {
               />
             </label>
           </div>
-          <div className="mx-2 flex-1 px-2">
+          <div className="flex-1 px-2 mx-2">
             <Link
               legacyBehavior
               href={'/'}
@@ -35,13 +35,13 @@ export default function Navbar({ children }) {
               <a>Daisynateur</a>
             </Link>
           </div>
-          <div className="hidden flex-none lg:block">
-            <ul className="menu menu-horizontal  ">
+          <div className="flex-none hidden lg:block">
+            <ul className="menu menu-horizontal ">
               {/* Navbar menu content here */}
               <li className="">
                 <details>
                   <summary>About</summary>
-                  <ul className="bg-base-100  rounded-t-none p-2">
+                  <ul className="p-2 rounded-t-none bg-base-100">
                     <li>
                       <Link
                         legacyBehavior
@@ -82,15 +82,15 @@ export default function Navbar({ children }) {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 min-h-full w-80 p-4">
+        <ul className="min-h-full p-4 menu bg-base-200 w-80">
           {/* Sidebar content here */}
           <li className="mb-10">
-            <h1 className="text-2xl">Daisynateur</h1>
+            <h1 className="text-2xl">Menu</h1>
           </li>
           <li className="">
             <details>
               <summary>About</summary>
-              <ul className="bg-base-100  rounded-t-none p-2">
+              <ul className="p-2 rounded-t-none bg-base-100">
                 <li>
                   <Link
                     legacyBehavior
